@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Predict Insurance Bill</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+<link type="text/css" rel="stylesheet" href="/static/./style.css">
+  
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <a href="http://Localhost:13195/public/dashboard/8f642a27-aad4-4fb3-be85-2949f4564e02" style="color:#72A0C1" class="button">Dash Board</a>
+    </ul>
+  </nav>
+ <div class="login">
+	<h1>Predict Insurance Bill</h1>
+
+     <!-- Form to enter new data for predictions  -->
+    <form action="/predict"method="POST">
+      <input type="text" name="age" placeholder="나이" required="required" /><br>
+    	<input type="text" name="sex" placeholder="성별" required="required" /><br>
+        <input type="text" name="bmi" placeholder="BMI" required="required" /><br>
+        <input type="text" name="children" placeholder="자녀의 수" required="required" /><br>
+        <input type="text" name="smoker" placeholder="흡연 여부" required="required" /><br>
+        <input type="text" name="region" placeholder="지역" required="required" /><br>
+
+        <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+    </form>
+
+   <br>
+   <br>
+  {{prediction_text}}
+   
+    
+ </div>
+ 
+
+</body>
+</html>
