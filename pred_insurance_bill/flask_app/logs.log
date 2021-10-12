@@ -684,3 +684,11 @@
                 ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
 2021-10-12 07:13:43,007:INFO:Checking exceptions
 2021-10-12 07:13:43,007:INFO:Preloading libraries
+2021-10-12 07:50:43,410:INFO:Initializing load_model()
+2021-10-12 07:50:43,410:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 07:50:44,737:INFO:Initializing load_model()
+2021-10-12 07:50:44,738:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 15:19:37,327:INFO:Initializing load_model()
+2021-10-12 15:19:37,327:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 15:19:38,649:INFO:Initializing load_model()
+2021-10-12 15:19:38,649:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
