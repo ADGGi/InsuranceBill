@@ -692,3 +692,31 @@
 2021-10-12 15:19:37,327:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
 2021-10-12 15:19:38,649:INFO:Initializing load_model()
 2021-10-12 15:19:38,649:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 15:28:12,805:INFO:Initializing load_model()
+2021-10-12 15:28:12,806:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 15:28:14,143:INFO:Initializing load_model()
+2021-10-12 15:28:14,143:INFO:load_model(model_name=lr_model, platform=None, authentication=None, verbose=True)
+2021-10-12 16:28:38,408:INFO:Initializing predict_model()
+2021-10-12 16:28:38,409:INFO:predict_model(estimator=Pipeline(steps=[('dtypes',
+                 DataTypes_Auto_infer(ml_usecase='regression',
+                                      target='charges')),
+                ('imputer',
+                 Simple_Imputer(categorical_strategy='not_available',
+                                fill_value_categorical=None,
+                                fill_value_numerical=None,
+                                numeric_strategy='mean',
+                                target_variable=None)),
+                ('new_levels1',
+                 New_Catagorical_Levels_in_TestData(replacement_strategy='least '
+                                                                         'frequent',
+                                                    target=...
+                ('binn', Binning(features_to_discretize=['age', 'bmi'])),
+                ('rem_outliers', 'passthrough'), ('cluster_all', 'passthrough'),
+                ('dummy', Dummify(target='charges')),
+                ('fix_perfect', Remove_100(target='charges')),
+                ('clean_names', Clean_Colum_Names()),
+                ('feature_select', 'passthrough'), ('fix_multi', 'passthrough'),
+                ('dfs', 'passthrough'), ('pca', 'passthrough'),
+                ['trained_model', LinearRegression(n_jobs=-1)]]), probability_threshold=None, encoded_labels=True, raw_score=False, round=0, verbose=True, ml_usecase=MLUsecase.REGRESSION, display=None)
+2021-10-12 16:28:38,409:INFO:Checking exceptions
+2021-10-12 16:28:38,409:INFO:Preloading libraries

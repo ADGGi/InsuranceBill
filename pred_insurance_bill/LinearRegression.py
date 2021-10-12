@@ -3,7 +3,7 @@ import pandas as pd
 import sqlite3
 from pycaret.regression import *
 
-con = sqlite3.connect('/Users/adg/pred_insurance_bill/insurance_db/insurance.db')
+con = sqlite3.connect('/Users/adg/InsuranceBill/pred_insurance_bill/insurance_db/insurance.db')
 
 df = pd.read_sql("SELECT * FROM InsuaranceTable", con)
 df = df.drop('ID', axis = 1)
