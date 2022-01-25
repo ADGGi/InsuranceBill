@@ -6,7 +6,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-model = load_model('lr_model')
+model = load_model('gbr2')
 cols = ['age', 'sex', 'bmi', 'children', 'smoker', 'region']
 
 @app.route('/')
