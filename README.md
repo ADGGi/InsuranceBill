@@ -1,5 +1,5 @@
 # Medical Cost Prediction project
-1. 출처 : [Kaggle Competitiion - Medical Cost Personal Datasets](https://www.kaggle.com/mirichoi0218/insurance)
+1. 출처 : [Kaggle Data set - Medical Cost Personal Datasets](https://www.kaggle.com/mirichoi0218/insurance)
 
 2. Data fields
     - Age: 피보험자의 나이  
@@ -18,7 +18,7 @@
 
 Contents
 -------------------
-[프로젝트 과정 note](https://github.com/ADGGi/InsuranceBill/blob/master/pred_insurance_bill/EDA_Modeling/EDA_ML_Model_result.ipynb)
+[프로젝트 과정 NOTE](https://github.com/ADGGi/InsuranceBill/blob/master/pred_insurance_bill/EDA_Modeling/EDA_ML_Model_result.ipynb)
 1. EDA 및 데이터 전처리
 2. 변수 분석
 3. Modeling
